@@ -6,5 +6,5 @@ taxi_services has 1 million and a half service registers. Each register gives us
 
 shp2pgsql -W "latin1" -s 27493:4326 -g geom -I caop/Cont_Freg_V5.shp public.caop | psql
 
-After pre-processing the data, we built a Data Warehouse which was then use to extract relevant information from the data.
+After pre-processing the data, we built a Data Warehouse which was then use to extract relevant information.
 
